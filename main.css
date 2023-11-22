@@ -1,0 +1,17 @@
+footer {
+    background-color: #515151;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.redes {
+    margin-right: 50%;
+}
+
+.info {
+    margin-left: 50%;
+}
+
+img {
+    width: 30px;
+}
