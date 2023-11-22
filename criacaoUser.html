@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Usuário</title>
+</head>
+
+<body>
+    <!-- div centralizada para cadastro -->
+    <div style="margin: auto; margin-top: 50px; border-radius: 10px; background: #CED4D3; width: fit-content;">
+        <h1>Cadastro de Usuário</h1>
+        <form action="" method="POST">
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+            <br><br>
+            <label for="tipousuario">Tipo de Usuário:</label><br>
+            <select name="tipousuario" id="tipousuario" required>
+                <option value="1">Administrador</option>
+                <option value="2">Professor</option>
+                <option value="3">Estudante</option>
+            </select>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+            <br><br>
+            <label for="senha">Senha:</label><br>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+            <br><br>
+            <label for="senha2">Confirme sua senha:</label><br>
+            <input type="password" name="senha2" id="senha2" placeholder="Confirme sua senha" required>
+            <br><br>
+            <input type="submit" value="Cadastrar">
+        </form>
+    </div>
+
+
+</body>
+
+<style>
+    body {
+        background-color: #f5f5f5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    div {
+        margin-top: 50px;
+        border-radius: 10px;
+        background: #CED4D3;
+        width: fit-content;
+        padding: 20px;
+        /* Add padding for better appearance */
+    }
+
+    input {
+        width: 92%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        /* Add margin between input fields */
+    }
+
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    label {
+        font-weight: bold;
+    }
+    
+    select {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+</style>
+
+
+</html>
