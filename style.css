@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#menu {
+    padding: 20px;
+    background-color: #000055;
+}
+
+#logo-upe {
+    height: 70px;
+    width: 100px;
+}
+
+.lista {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    align-self: center;
+    font-size: 18px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: gray;
+}
